@@ -1,0 +1,23 @@
+{
+  "name": "callbag-last",
+  "version": "1.0.0",
+  "description": "Emit the last value emitted from source on completion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartyJiang/callbag-last.git"
+  },
+  "keywords": [
+    "callbag",
+    "last"
+  ],
+  "author": "Jinahm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartyJiang/callbag-last/issues"
+  },
+  "homepage": "https://github.com/MartyJiang/callbag-last#readme"
+}
