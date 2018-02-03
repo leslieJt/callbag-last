@@ -1,7 +1,9 @@
 # callbag-last
-Emit the last value emitted from source on completion
+
+Emit the last value emitted from source on completion.
 
 ```javascript
+const { pipe, interval, take, observe } = require('callbag-basics');
 pipe(
   interval(100),
   take(5),
