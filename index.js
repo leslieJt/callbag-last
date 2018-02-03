@@ -20,3 +20,5 @@ const last = () => source => (start, slink) => {
     }
   });
 };
+
+module.exports = last;
