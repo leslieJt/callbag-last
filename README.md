@@ -3,7 +3,14 @@
 Emit the last value emitted from source on completion.
 
 ```javascript
-const { pipe, interval, take, observe } = require('callbag-basics');
+const {
+  pipe,
+  interval,
+  take,
+  fromIter,
+  iterate,
+  observe
+} = require('callbag-basics');
 
 pipe(
   interval(100),
