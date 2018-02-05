@@ -16,6 +16,8 @@ const {
   observe
 } = require('callbag-basics');
 
+const last = require('callbag-last');
+
 pipe(
   interval(100),
   take(5),
