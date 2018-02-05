@@ -1,6 +1,10 @@
 # callbag-last
 
-Emit the last value emitted from source on completion, based on provided expression.
+[Callbag](https://github.com/callbag/callbag) operator that emit the last value emitted from source on completion, based on provided expression.
+
+`npm install callbag-last`
+
+`last(predicate?: (v: any) => Boolean, resultSelector?: (v: any) => any)`
 
 ```javascript
 const {
